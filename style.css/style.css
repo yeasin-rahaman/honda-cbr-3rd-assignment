@@ -1,0 +1,93 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: #6C6C6C;
+    line-height: 2rem;
+    font-weight: 400;
+}
+h1, h4{
+    font-weight: 600;
+    color: #18191F
+    ;
+}
+
+/* header  */
+header, .connect-with-us{
+    background-color: #264653;
+ color: white;
+}
+
+
+/* text colour  */
+.orange-text{
+    
+    color: #E76F51;
+}
+
+.orange-text-after h5{
+    display: inline-block;
+}
+.orange-text-after h5::after{
+    text-align: center;
+    content: '';
+    display: block;
+    background-color:#E76F51 ;
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+/* Fetured Bikes */
+.bike{
+    width: 288px;
+    filter: grayscale(100%);
+}
+.bike:hover{
+    filter: grayscale(0);
+}
+/* hr  */
+.orange-text-hr{
+    width: 80px;
+    border: 2px solid #E76F51;
+}
+/* buttons  */
+
+.header-button{
+    border: 2px solid #E76F51;
+    background-color: #E76F51;
+    color: white;
+}
+.header-button:hover{
+    background: none;
+    border: 2px solid #E76F51;
+    color: #E76F51;
+
+}
+
+.card-button{
+    border: 2px solid #E76F51;
+    color: #E76F51;
+}
+.card-button:hover{
+    background-color: #E76F51;
+    color: white;
+}
+
+
+
+
+
+/* footer  */
+.footer-text ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-text, .footer-text a{
+    color: white;
+}
+
