@@ -77,6 +77,21 @@ header, .connect-with-us{
     color: white;
 }
 
+.section-text h1{
+    display: inline-block;
+    
+}
+.section-text::after{
+    text-align: center;
+    content: '';
+    display: block;
+    background-color:#E76F51 ;
+    height: 2px;
+    width: 7%;
+    margin: auto;
+    margin-top: 10px;
+
+}
 
 
 
